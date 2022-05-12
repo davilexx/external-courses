@@ -16,7 +16,7 @@ const evenOddZeroCount = (arr) => {
     i += 1;
   }
 
-  console.log(`чётных: ${even}, нечётных: ${odd}, нуль: ${zero}`);
+  // console.log(`чётных: ${even}, нечётных: ${odd}, нуль: ${zero}`);
 
   result.push(even, odd, zero);
   return result;
