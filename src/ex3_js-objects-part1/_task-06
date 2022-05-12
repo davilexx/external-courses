@@ -1,0 +1,18 @@
+const getProperty = (obj, propertyPath) => {
+  const pathArr = propertyPath.split('.');
+
+  // for (let i = 0; i < pathArr.length; i += 1) {
+  //   Object.keys(obj).forEach((key) => {
+  //     if (key !== pathArr[i]) {
+  //       return undefined;
+  //     }
+  //     return obj[key];
+  //   });
+  // }
+
+  const iterate = (obj) => {
+    iterate()
+  };
+};
+
+module.export = getProperty;
